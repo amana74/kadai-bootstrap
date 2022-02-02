@@ -14,7 +14,7 @@
     <header>
         
         <!-- 576px以上の画面幅のとき、メニューを表示する（それ未満なら折りたたむ）指定を追加 -->
-        <nav class="navbar navbar-light bg-light　navbar-expand-sm">
+        <nav class="navbar-expand-sm navbar-light bg-light ">
             <div class="container-fluid">
                 <!-- 画面左上に表示するサイト名のリンクとして適切な表示をするための指定を追加 -->
 
@@ -42,7 +42,7 @@
             <!-- 576px以上の画面幅のとき、左側は3つ分のカラム幅で表示する指定を追加 -->
             <div class="col-sm-3">
                 <!-- 電話に関するBootstrap Iconsのアイコンを「お電話：」の左に追加 -->
-                <img class="" src="" alt=""> <strong>お電話：</strong>
+                <img class="mb-1" src="./telephone-fill.svg" alt="phone"> <strong>お電話：</strong>
             </div>
 
             <!-- 576px以上の画面幅のとき、右側は9つ分のカラム幅で表示する指定を追加 -->
@@ -82,11 +82,11 @@
                     <!-- カードのタイトル部分として設定 -->
                     <div class="card-header">
                         <!-- 営業時間の情報に関するBootstrap Iconsのアイコンを「営業時間」の左に追加 -->
-                        <img class="" src="" alt=""> 営業時間
+                        <img class="mb-1" src="./info-circle-fill.svg" alt="info"> 営業時間
                     </div>
 
                     <!-- カードの本文部分として設定 -->
-                    <div class="card body">
+                    <div class="card-body">
                         平日10時〜19時（土日・祝日は対応しておりません）
                     </div>
                 </div>
@@ -98,7 +98,7 @@
             <!-- 576px以上の画面幅のとき、左側は3つ分のカラム幅で表示する指定を追加 -->
             <div class="col-sm-3">
                 <!-- メールに関するBootstrap Iconsのアイコンを「メール：」の左に追加 -->
-                <img class="" src="" alt=""> <strong>メール：</strong>
+                <img class="mb-1" src="./envelope.svg" alt="mail"> <strong>メール：</strong>
             </div>
 
             <!-- 576px以上の画面幅のとき、右側は9つ分のカラム幅で表示する指定を追加 -->
@@ -128,6 +128,7 @@
                         <!-- 576px以上の画面幅のとき、フォーム部品は9つ分のカラム幅で表示する指定を追加 -->
                         <div class="col-sm-9">
                             <input type="text" class="form-control" name="name">
+
                         </div>
                     </div>
 
@@ -141,7 +142,6 @@
                             <input type="text" class="form-control" name="mail">
                         </div>
                     </div>
-
                     <!-- ラベルとフォーム部品を並べるためにグリッドを使う指定を追加 -->
                     <div class="mb-3 row">
                         <!-- 576px以上の画面幅のとき、ラベルは3つ分のカラム幅で表示する指定を追加 -->
